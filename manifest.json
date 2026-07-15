@@ -1,21 +1,16 @@
 {
-  "short_name": "ระบบแรงงาน",
-  "name": "ระบบ บัณฑิตแรงงาน",
+  "short_name": "อสร.อำนาจเจริญ",
+  "name": "ระบบติดตามการปฏิบัติงาน อสร.อำนาจเจริญ",
   "icons": [
     {
-      "src": "icon-192.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "icon-512.png",
+      "src": "https://amnatcharoen.mol.go.th/_static_html/images/logo-mol.png",
       "type": "image/png",
       "sizes": "512x512"
     }
   ],
-  "start_url": "index.html",
-  "background_color": "#5B21B6",
-  "theme_color": "#5B21B6",
+  "start_url": "./index.html",
+  "background_color": "#4a154b",
+  "theme_color": "#4a154b",
   "display": "standalone",
   "orientation": "portrait"
 }
