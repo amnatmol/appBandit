@@ -1,5 +1,11 @@
-const CACHE_NAME = 'mol-pwa-v1';
-const urlsToCache = ['index.html', 'manifest.json', 'icon-192.png', 'icon-512.png'];
+const CACHE_NAME = 'pwa-cache-v1';
+const urlsToCache = [
+  './',
+  './index.html',
+  './manifest.json',
+  './icon-192.png',
+  './icon-512.png'
+];
 
 self.addEventListener('install', event => {
   event.waitUntil(
